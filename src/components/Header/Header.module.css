@@ -1,0 +1,27 @@
+.header{
+    width: 100%;
+    height: 56px;
+    background-color: #fff;
+    position:fixed;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+.home{
+    color: #65676b;
+    width: 28px;
+    height: 28px;
+}
+.messages{
+    color: #65676b;
+    width: 28px;
+    height: 28px;
+}
+.block{
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

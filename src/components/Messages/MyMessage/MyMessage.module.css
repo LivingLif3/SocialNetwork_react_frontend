@@ -1,0 +1,42 @@
+.description{
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+    flex-direction: row-reverse;
+    margin-bottom: 10px;
+}
+.buble{
+    background-color: #dc335a;
+    font-size: 16px;
+    right: 0;
+    border-radius: 12px;
+    border-bottom-right-radius: 0;
+    padding: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    max-width: 450px;
+    width: auto;
+    padding: 8px;
+    position: relative;
+    overflow: hidden;
+}
+/*.message{
+    max-width: 50%;
+    width: 200px;
+    border-radius: 16px;
+    background-color: #0084ff;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+}*/
+.delete{
+    display: none;
+    margin-right: 20px;
+}
+.message:hover .delete{
+    display: block;
+    cursor: pointer;
+}

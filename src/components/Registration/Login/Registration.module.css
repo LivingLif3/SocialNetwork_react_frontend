@@ -1,0 +1,49 @@
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 99vh;
+    margin: 0;
+}
+
+.content{
+    background-color: #fff;
+    width: 500px;
+    height: 400px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+
+.Registration{
+    text-align: center;
+}
+
+.input{
+    margin-left: 10%;
+    margin-bottom: 20px;
+    width: 25vw;
+    border: 1px solid #c0c0c0;
+    outline: none;
+    box-shadow: none;
+    height: 35px;
+    font-size: 17px;
+    border-radius: 6px;
+}
+
+.button{
+    width: 25vw;
+    font-size: 17px;
+    height: 40px;   
+    border-radius: 6px;
+    color: #fff;
+    background-color: #dc335a;
+    border: none;
+    margin-left: 11%;
+}
+
+.description{
+    text-align: center;
+}

@@ -1,0 +1,29 @@
+.content{
+    display: flex;
+    padding-top: 100px;
+    justify-content: center;
+}
+.posts{
+    display: flex;
+    flex-direction: column;
+}
+.addPost{
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+    background-color: #fff;
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.addPost:hover{
+    cursor: pointer;
+    height: 55px;
+    width: 55px;
+    border-radius: 30px;
+    right: 23px;
+    bottom: 23px;
+}

@@ -1,0 +1,115 @@
+.post{
+    max-width: 500px;
+    min-width: 500px;
+    background-color: #fff;
+    box-shadow: 0 2px 2px rgb(0 0 0 / 10%), 0 8px 8px rgb(0 0 0 / 10%);
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.header{
+    left: 5px;
+    top: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.person{
+    display: flex;
+    justify-content:flex-start;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+}
+
+.name{
+    margin-left: 10px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.title{
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+.avatar img{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.likes{
+    cursor: pointer;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 37px;
+    border-radius: 5px;
+}
+
+.likes:hover{
+    background-color: #DADDE1;
+}
+
+.comments{
+    cursor: pointer;
+    width: 50%;
+    display: flex;
+    height: 37px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.comments:hover{
+    background-color: #DADDE1;
+}
+
+.span{
+    margin-left: 5px;
+    color: #65676b;
+    font-weight: 600;
+}
+
+.description{
+    margin-top: 10px;
+}
+
+.navLink{
+    text-decoration: none;
+    color: black;
+}
+
+.navLink:hover{
+    color: blue
+}
+
+.like{
+    margin-top: 20px;
+    color: #65676b;
+}
+
+.active{
+    color: #dc335a;
+}
+
+.delete:hover{
+    cursor: pointer;
+}
+
+.input{
+    display: flex;
+    justify-content: center;
+}
+
+.sendIcon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+}

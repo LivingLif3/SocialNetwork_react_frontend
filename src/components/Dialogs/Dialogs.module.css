@@ -1,0 +1,81 @@
+.chat{
+    background-color: #fff;
+    width: 1140px;
+    margin: 0 auto;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.04204);
+    display: flex;
+    height: calc(100vh - 56px);
+    padding-top: 56px;
+}
+.sidebar{
+    width: 340px;
+    border-right: 1px solid #f7f7f7;
+    height: calc(100vh - 56px);
+    overflow: auto;
+}
+.dialog{
+    flex: 1;
+}
+.sidebarHeader{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-bottom: 1px solid #f7f7f7;
+    margin-bottom: 20px;
+}
+.i{
+    display: inline-block;
+    margin-right: 10px;
+}
+.search{
+    width: 270px;
+    height: 23px;
+    background-color: #f2f2f2;
+    border: none;
+    margin: 0 20px 20px 20px;
+}
+.sidebarDialogs{
+    padding: 0 10px;
+}
+.dialogMessages{
+    padding: 10px;
+}
+.headerFullname{
+    font-weight: 500;
+}
+.dialogHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 9px;
+    border-bottom: 1px solid #f7f7f7;
+}
+.dialogHeaderCenter{
+    text-align: center;
+    width: 75px;
+}
+.headerStatus{
+    color:#dfdfdf;
+    position: relative;
+}
+.statusCircle::before{
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    content: '';
+    width: 6px;
+    height: 6px;
+    border-radius: 30px;
+    background-color: #d3d3d3;
+}
+.status statusCircle::before{
+    background-color: #00c980;
+}
+.dialogMessages{
+    overflow: auto;
+    height: calc(100vh - 224px); /*168*/
+}
+.navLinks{
+    text-decoration: none;
+}

@@ -1,0 +1,44 @@
+.chatInput{
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+.smileBtn{
+    margin-right: 10px;
+    opacity: 0.5;
+    cursor: pointer;
+}
+.smileBtn:hover{
+    opacity: 1;
+}
+input{
+    width: 90%;
+    padding: 5px;
+    border: 1px solid #d3d3d3;
+}
+.chatInput{
+    padding: 20px;
+
+}
+.chatActions{
+    display: flex;
+    justify-content: space-around;
+    width: 90px;
+    align-items: center;
+    opacity: 0.5;
+    cursor: pointer;
+    margin-left: 5px;
+}
+.iF:hover{
+    opacity: 1;
+}
+.iS:hover{
+    opacity: 1;
+}
+.iT:hover{
+    opacity: 1;
+}
+input:focus {
+    box-shadow: 0px 0px 5px 1px #0084ff;
+    outline: none;
+}
